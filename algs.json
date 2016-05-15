@@ -62,7 +62,18 @@
 					"desc": "Una catarata ancha R'F'R2U' y una catarata al frente",
 					"alg": "(R'U'R) Dw' (R'F'R2U') (R'UR') (FRF)",
 					"pos": 1
-				}]
+				}, {
+					"name": "Na Permutation",
+					"desc": "aún no sé",
+					"alg": "z (DR') U (R2D'R) (DU') R'U (R2D'R) U'R",
+					"pos": 1
+				}, {
+					"name": "Nb Permutation",
+					"desc": "aún no sé",
+					"alg": "z (U'RD') (R2UR'D) (U'RD') (R2UR'D) R'",
+					"pos": 1
+				}
+            ]
 			}, {
 				"name": "Swapping Two Adjacent Corners And Two Edges",
 				"algs": [{
