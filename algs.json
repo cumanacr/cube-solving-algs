@@ -97,8 +97,8 @@
                     "pos": 1
                 }, {
                     "name": "Ra Permutation",
-                    "desc": "Un superR que se devuelve RU2 catarata larga FRente Argentina kriptonita",
-                    "alg": "(RUR') F' (RU2) (R'U2R') FR (URU) (UR'U')",
+                    "desc": "Un superR con un martillo que se devuelve U2 R' U2 R' FRente Argentina U R'U'",
+                    "alg": "(RUR') (F'R) (U2R')(U2R') FR (URU) (UR'U')",
                     "pos": 1
                 }, {
                     "name": "Rb Permutation",
