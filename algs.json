@@ -102,8 +102,8 @@
                     "pos": 1
                 }, {
                     "name": "Rb Permutation",
-                    "desc": "R pa' bajo U2 R pa'rriba U2 martillo superR ",
-                    "alg": "(R'U2) (RU2) (R'F) (RUR') (U'R'F') R2 U'",
+                    "desc": "R'U2 RU2 martillo superR en una catarata extraña",
+                    "alg": "(R'U2) (RU2) (R'F) (RUR') (U'R'F'R2) U'",
                     "pos": 1
                 }]
             }, {
