@@ -69,8 +69,8 @@
                     "pos": 1
                 }, {
                     "name": "Nb Permutation",
-                    "desc": "aún no sé",
-                    "alg": "z (U'RD') (R2UR'D) (U'RD') (R2UR'D) R'",
+                    "desc": "B2 RURU R2 BUBU RUBU",
+                    "alg": "B2 (R2U2R2U) R2 (B2U2B2U) (R2U2B2U)",
                     "pos": 1
                 }]
             }, {
