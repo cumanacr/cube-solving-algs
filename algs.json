@@ -64,8 +64,8 @@
                     "pos": 1
                 }, {
                     "name": "Na Permutation",
-                    "desc": "aún no sé",
-                    "alg": "z (DR') U (R2D'R) (DU') R'U (R2D'R) U'R",
+                    "desc": "DR. U R2 empujo R izdas U'R'U R2 empujo cohete",
+                    "alg": "z (DR'U) (R2D') (RDU') R'U (R2D') (RU'R)",
                     "pos": 1
                 }, {
                     "name": "Nb Permutation",
