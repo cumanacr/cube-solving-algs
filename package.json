@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/cumanacr/cube-solving-algs/issues"
   },
-  "homepage": "https://github.com/cumanacr/cube-solving-algs#readme"
+  "homepage": "https://github.com/cumanacr/cube-solving-algs#readme",
+  "dependencies": {
+    "react": "^15.1.0"
+  }
 }
