@@ -1,0 +1,20 @@
+{
+  "name": "cube-solving-algs",
+  "version": "1.0.0",
+  "description": "Cube solving algorithms in various methods.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cumanacr/cube-solving-algs.git"
+  },
+  "keywords": ["rubik","cube","algorithms","alg"],
+  "author": "cumanacr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cumanacr/cube-solving-algs/issues"
+  },
+  "homepage": "https://github.com/cumanacr/cube-solving-algs#readme"
+}
