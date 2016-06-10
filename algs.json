@@ -66,18 +66,18 @@
                 "pos": 1
             }, {
                 "name": "V Permutation",
-                "desc": "Una catarata ancha R'F'R2U' y una catarata al frente",
+                "desc": "Una catarata ancha, una catarata extraña y una catarata al frente",
                 "move": "(R'U'R) Dw' (R'F'R2U') (R'UR') (FRF)",
                 "pos": 1
             }, {
                 "name": "Na Permutation",
-                "desc": "aún no sé",
-                "move": "z (DR') U (R2D'R) (DU') R'U (R2D'R) U'R",
+                "desc": "DR. U R2 empujo R izdas U'R'U R2 empujo cohete",
+                "move": "z (DR'U) (R2D') (RDU') R'U (R2D') (RU'R)",
                 "pos": 1
             }, {
                 "name": "Nb Permutation",
-                "desc": "aún no sé",
-                "move": "z (U'RD') (R2UR'D) (U'RD') (R2UR'D) R'",
+                "desc": "B2 RURU R2 BUBU RUBU",
+                "move": "B2 (R2U2R2U) R2 (B2U2B2U) (R2U2B2U)",
                 "pos": 1
             }]
         }, {
@@ -104,13 +104,13 @@
                 "pos": 1
             }, {
                 "name": "Ra Permutation",
-                "desc": "Un superR con un martillo que se devuelve U2 R' U2 R' FRente Argentina U R'U'",
+                "desc": "Un superR con un martillo que se devuelve U2 R' U2 R' FRente Argentina Doble R'U'",
                 "move": "(RUR') (F'R) (U2R')(U2R') FR (URU) (UR'U')",
                 "pos": 1
             }, {
                 "name": "Rb Permutation",
-                "desc": "R pa' bajo U2 R pa'rriba U2 martillo superR ",
-                "move": "(R'U2) (RU2) (R'F) (RUR') (U'R'F') R2 U'",
+                "desc": "R'U2 RU2 un martillo sexy en una catarata extraña",
+                "move": "(R'U2) (RU2) (R'F) (RUR'U') R'F'R2) U'",
                 "pos": 1
             }]
         }, {
@@ -127,13 +127,13 @@
                 "pos": 1
             }, {
                 "name": "Gc Permutation",
-                "desc": "Flechas arriba der",
-                "move": "y R2 u' (RU'R) UR' u R2 y RU'R'",
+                "desc": "(Flechas abajo) y R2 lago ese RU' superR lago R2 Frente Amplio",
+                "move": "y R2 Uw' (RU') (RUR') Uw R2 (FwR'Fw')",
                 "pos": 1
             }, {
                 "name": "Gd Permutation",
-                "desc": "Flechas abajo der",
-                "move": "y2 (RUR') y' R2 u' RU' (R'UR') u R2",
+                "desc": "(Flechas arriba) SuperR y' R2 lago ese RU' catarata lago R2",
+                "move": "(RUR') y' R2 Uw' (RU') (R'UR') Uw R2",
                 "pos": 1
             }]
         }]
