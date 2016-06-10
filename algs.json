@@ -1,191 +1,222 @@
 [{
-        "method": "Fridich (FULL)",
-        "stages": [{
-            "name": "FIRST 2 LAYERS",
-            "nickname": "F2L"
-        }, {
-            "name": "ORIENTATION OF LAST LAYER",
-            "nickname": "OLL"
-        }, {
-            "name": "PERMUTATION OF LAST LAYER",
-            "nickname": "PLL",
-            "cases": [{
-                "name": "Corners Only [3 cases]",
+    "method": "Fridich (FULL)",
+    "stages": [{
+        "name": "FIRST 2 LAYERS",
+        "nickname": "F2L"
+    }, {
+        "name": "ORIENTATION OF LAST LAYER",
+        "nickname": "OLL"
+    }, {
+        "name": "PERMUTATION OF LAST LAYER",
+        "nickname": "PLL",
+        "cases": [{
+            "name": "Corners Only [3 cases]",
+            "perms": [{
+                "name": "Aa Permutation",
                 "algs": [{
-                    "name": "Aa Permutation",
                     "desc": "Una catarata de dedos de kriptonita para 3po",
-                    "alg": "x (R'UR') D2 (RU'R') (D2R2) x'",
-                    "pos": 1
-                }, {
-                    "name": "Ab Permutation",
+                    "move": "x (R'UR') D2 (RU'R') (D2R2) x'",
+                    "pos": 1,
+                    "img": "aa-perm",
+                    "notes": "aa-perm-{pos}.png?"
+                }]
+            }, {
+                "name": "Ab Permutation",
+                "algs": [{
                     "desc": "R2D2 es un superR con dedos de cohete",
-                    "alg": "x R2D2 (RUR') D2 (RU'R) x'",
-                    "pos": 1
-                }, {
-                    "name": "E Permutation",
-                    "desc": "Kriptonita D superR D' superR D kriptonita D'",
-                    "alg": "x' (RU'R') D (RUR') D' (RUR') D (RU'R') D' x",
+                    "move": "x R2D2 (RUR') D2 (RU'R) x'",
                     "pos": 1
                 }]
-            }, {
-                "name": "Edges Only [4 cases]",
-                "algs": [{
-                    "name": "Ua Permutation",
-                    "desc": "Izq. abajo",
-                    "alg": "M2 U (M U2 M') U M2",
-                    "pos": 1
-                }, {
-                    "name": "Ub Permutation",
-                    "desc": "Izq. al otro extremo",
-                    "alg": "M2 U' (M U2 M') U' M2",
-                    "pos": 1
-                }, {
-                    "name": "H Permutation",
-                    "desc": "Cruz",
-                    "alg": "M2 U (M2 U2 M2) U M2",
-                    "pos": 1
-                }, {
-                    "name": "Z Permutation",
-                    "desc": "izq arriba, derecha abajo",
-                    "alg": "(M2 U M2) U M' (U2 M2 U2) M'",
-                    "pos": 1
-                }]
-            }, {
-                "name": "Permutations Of Two Diagonal Corners And Two Edges [4 cases]",
-                "algs": [{
-                    "name": "Y Permutation",
-                    "desc": "FRente de Uruguay con un superR que se devuelve y un sexy martillo que se devuelve",
-                    "alg": "FR (U'R'U') (RUR') F' (RUR'U') (R'FRF')",
-                    "pos": 1
-                }, {
-                    "name": "V Permutation",
-                    "desc": "Una catarata ancha R'F'R2U' y una catarata al frente",
-                    "alg": "(R'U'R) Dw' (R'F'R2U') (R'UR') (FRF)",
-                    "pos": 1
-                }, {
-                    "name": "Na Permutation",
-                    "desc": "aún no sé",
-                    "alg": "z (DR') U (R2D'R) (DU') R'U (R2D'R) U'R",
-                    "pos": 1
-                }, {
-                    "name": "Nb Permutation",
-                    "desc": "aún no sé",
-                    "alg": "z (U'RD') (R2UR'D) (U'RD') (R2UR'D) R'",
-                    "pos": 1
-                }]
-            }, {
-                "name": "Swapping Two Adjacent Corners And Two Edges [3 T cases] [3 F cases]",
-                "algs": [{
-                    "name": "T Permutation",
-                    "desc": "Un sexy martillo R2 de Uruguay y un superR que se devuelve",
-                    "alg": "(RUR'U') (R'F) R2 (U'R'U') (RUR') F'",
-                    "pos": 1
-                }, {
-                    "name": "Ja Permutation",
-                    "desc": "Izq empuja arriba, derecha empuja arriba, izq. arriba y U2 kriptonita U2 R",
-                    "alg": "LU'R'UL' U2(RU'R')U2 R",
-                    "pos": 1
-                }, {
-                    "name": "Jb Permutation",
-                    "desc": "Un superR que se devuelve luego un sexy martillo R2 de Uruguay",
-                    "alg": "(RUR') F' (RUR'U') (R'F) R2 (U'R'U')",
-                    "pos": 1
-                }, {
-                    "name": "F Permutation",
-                    "desc": "R'U'F' y un sexy martillo R2 Uruguay y un superR de la Unión Soviética",
-                    "alg": "y' R'U'F' (RUR'U') (R'F) R2 (U'R'U') (RUR') UR",
-                    "pos": 1
-                }, {
-                    "name": "Ra Permutation",
-                    "desc": "Un superR con un martillo que se devuelve U2 R' U2 R' FRente Argentina U R'U'",
-                    "alg": "(RUR') (F'R) (U2R')(U2R') FR (URU) (UR'U')",
-                    "pos": 1
-                }, {
-                    "name": "Rb Permutation",
-                    "desc": "R pa' bajo U2 R pa'rriba U2 martillo superR ",
-                    "alg": "(R'U2) (RU2) (R'F) (RUR') (U'R'F') R2 U'",
-                    "pos": 1
-                }]
-            }, {
-                "name": "Cycling Three Corners and Three Edges [4 cases]",
-                "algs": [{
-                    "name": "Ga Permutation",
-                    "desc": "Flechas arriba izq",
-                    "alg": "y R2 u (R'UR') (U'R) u' R2 y' R' (UR)",
-                    "pos": 1
-                }, {
-                    "name": "Gb Permutation",
-                    "desc": "Flechas abajo izq",
-                    "alg": "(R'U'R) y R2 u R' (UR) (U'R) u' R2",
-                    "pos": 1
-                }, {
-                    "name": "Gc Permutation",
-                    "desc": "Flechas arriba der",
-                    "alg": "y R2 u' (RU'R) UR' u R2 y RU'R'",
-                    "pos": 1
-                }, {
-                    "name": "Gd Permutation",
-                    "desc": "Flechas abajo der",
-                    "alg": "y2 (RUR') y' R2 u' RU' (R'UR') u R2",
-                    "pos": 1
-                }]
-            }]
-        }]
-    }, {
-        "method": "Fridich (EASY)",
-        "stages": [{
-            "name": "FIRST 2 LAYERS (Intuitive)",
-            "nickname": "F2L"
-        }, {
-            "name": "ORIENTATION OF LAST LAYER",
-            "nickname": "OLL"
-        }, {
-            "name": "PERMUTATION OF LAST LAYER",
-            "nickname": "PLL",
-            "cases": [{
-                "name": "Corners Only",
-                "algs": [{
-                    "name": "To swap C and D",
-                    "desc": "ABCD",
-                    "alg": "R' F R' B2 R F' R' B2 R2",
-                    "pos": 1
-                }, {
-                    "name": "To swap A and D",
-                    "desc": "ABCD",
-                    "alg": "F R U’ R’ U’ R U R’ F’ R U R’ U’ R’ F R F’",
-                    "pos": 1
-                }]
-            }]
-        }]
 
-    },
-
-    {
-        "method": "Nice Patterns",
-        "stages": [{
-
-            "name": "Solved Stage",
-            "nickname": "Solved",
-            "cases": [{
-                "name": "Super Flip",
-                "desc": "Solution: (M'U)*4 xy' (M'U)*4 xy' (M'U)*4",
-                "alg": "U R2 F B R B2 R U2 L B2 R U' D' R2 F R' L B2 U2 F2 ",
+            }, {
+                "name": "E Permutation",
+                "desc": "Kriptonita D superR D' superR D kriptonita D'",
+                "move": "x' (RU'R') D (RUR') D' (RUR') D (RU'R') D' x",
                 "pos": 1
             }]
-
-        }]
-    }, {
-        "method": "Notes",
-        "stages": [{
-            "name": "Cubes URLs",
-            "nickname": "URLS",
-            "cases": [{
-                "name": "Pretty Rubik´s Cube patterns with algorithms",
-                "desc": "http://ruwix.com/the-rubiks-cube/rubiks-cube-patterns-algorithms/",
-                "alg": "",
+        }, {
+            "name": "Edges Only [4 cases]",
+            "perms": [{
+                "name": "Ua Permutation",
+                "desc": "Izq. abajo",
+                "move": "M2 U (M U2 M') U M2",
+                "pos": 1
+            }, {
+                "name": "Ub Permutation",
+                "desc": "Izq. al otro extremo",
+                "move": "M2 U' (M U2 M') U' M2",
+                "pos": 1
+            }, {
+                "name": "H Permutation",
+                "desc": "Cruz",
+                "move": "M2 U (M2 U2 M2) U M2",
+                "pos": 1
+            }, {
+                "name": "Z Permutation",
+                "desc": "izq arriba, derecha abajo",
+                "move": "(M2 U M2) U M' (U2 M2 U2) M'",
                 "pos": 1
             }]
-
+        }, {
+            "name": "Permutations Of Two Diagonal Corners And Two Edges [4 cases]",
+            "perms": [{
+                "name": "Y Permutation",
+                "desc": "FRente de Uruguay con un superR que se devuelve y un sexy martillo que se devuelve",
+                "move": "FR (U'R'U') (RUR') F' (RUR'U') (R'FRF')",
+                "pos": 1
+            }, {
+                "name": "V Permutation",
+                "desc": "Una catarata ancha R'F'R2U' y una catarata al frente",
+                "move": "(R'U'R) Dw' (R'F'R2U') (R'UR') (FRF)",
+                "pos": 1
+            }, {
+                "name": "Na Permutation",
+                "desc": "aún no sé",
+                "move": "z (DR') U (R2D'R) (DU') R'U (R2D'R) U'R",
+                "pos": 1
+            }, {
+                "name": "Nb Permutation",
+                "desc": "aún no sé",
+                "move": "z (U'RD') (R2UR'D) (U'RD') (R2UR'D) R'",
+                "pos": 1
+            }]
+        }, {
+            "name": "Swapping Two Adjacent Corners And Two Edges [3 T cases] [3 F cases]",
+            "perms": [{
+                "name": "T Permutation",
+                "desc": "Un sexy martillo R2 de Uruguay y un superR que se devuelve",
+                "move": "(RUR'U') (R'F) R2 (U'R'U') (RUR') F'",
+                "pos": 1
+            }, {
+                "name": "Ja Permutation",
+                "desc": "Izq empuja arriba, derecha empuja arriba, izq. arriba y U2 kriptonita U2 R",
+                "move": "LU'R'UL' U2(RU'R')U2 R",
+                "pos": 1
+            }, {
+                "name": "Jb Permutation",
+                "desc": "Un superR que se devuelve luego un sexy martillo R2 de Uruguay",
+                "move": "(RUR') F' (RUR'U') (R'F) R2 (U'R'U')",
+                "pos": 1
+            }, {
+                "name": "F Permutation",
+                "desc": "R'U'F' y un sexy martillo R2 Uruguay y un superR de la Unión Soviética",
+                "move": "y' R'U'F' (RUR'U') (R'F) R2 (U'R'U') (RUR') UR",
+                "pos": 1
+            }, {
+                "name": "Ra Permutation",
+                "desc": "Un superR con un martillo que se devuelve U2 R' U2 R' FRente Argentina U R'U'",
+                "move": "(RUR') (F'R) (U2R')(U2R') FR (URU) (UR'U')",
+                "pos": 1
+            }, {
+                "name": "Rb Permutation",
+                "desc": "R pa' bajo U2 R pa'rriba U2 martillo superR ",
+                "move": "(R'U2) (RU2) (R'F) (RUR') (U'R'F') R2 U'",
+                "pos": 1
+            }]
+        }, {
+            "name": "Cycling Three Corners and Three Edges [4 cases]",
+            "perms": [{
+                "name": "Ga Permutation",
+                "desc": "Flechas arriba izq",
+                "move": "y R2 u (R'UR') (U'R) u' R2 y' R' (UR)",
+                "pos": 1
+            }, {
+                "name": "Gb Permutation",
+                "desc": "Flechas abajo izq",
+                "move": "(R'U'R) y R2 u R' (UR) (U'R) u' R2",
+                "pos": 1
+            }, {
+                "name": "Gc Permutation",
+                "desc": "Flechas arriba der",
+                "move": "y R2 u' (RU'R) UR' u R2 y RU'R'",
+                "pos": 1
+            }, {
+                "name": "Gd Permutation",
+                "desc": "Flechas abajo der",
+                "move": "y2 (RUR') y' R2 u' RU' (R'UR') u R2",
+                "pos": 1
+            }]
         }]
-    }
-]
+    }]
+}, {
+    "method": "Fridich (EASY)",
+    "stages": [{
+        "name": "FIRST 2 LAYERS (Intuitive)",
+        "nickname": "F2L"
+    }, {
+        "name": "ORIENTATION OF LAST LAYER",
+        "nickname": "OLL"
+    }, {
+        "name": "PERMUTATION OF LAST LAYER",
+        "nickname": "PLL",
+        "cases": [{
+            "name": "Corners Only",
+            "perms": [{
+                "name": "To swap C and D",
+                "desc": "ABCD",
+                "move": "R' F R' B2 R F' R' B2 R2",
+                "pos": 1
+            }, {
+                "name": "To swap A and D",
+                "desc": "ABCD",
+                "move": "F R U’ R’ U’ R U R’ F’ R U R’ U’ R’ F R F’",
+                "pos": 1
+            }]
+        }]
+    }]
+}, {
+    "method": "Ortega Corners-First Solution",
+    "stages": [{
+        "name": "Orient Top Corners",
+        "nickname": "",
+        "cases": [{
+            "name": "Intuitive",
+            "desc": "",
+            "move": "",
+            "pos": 1
+        }]
+    }, {
+        "name": "Orient Bottom Corners",
+        "nickname": "",
+        "cases": [{
+            "name": "T pattern",
+            "desc": "",
+            "move": "R U R' U' F' U' F",
+            "pos": 1
+        }, {
+            "name": "L (F) pattern",
+            "desc": "",
+            "move": "F R' F' U' R' U R",
+            "pos": 1
+        }]
+    }]
+}, {
+    "method": "Nice Patterns",
+    "stages": [{
+        "name": "Solved Stage",
+        "nickname": "Solved",
+        "cases": [{
+            "name": "Super Flip",
+            "desc": "Solution: (M'U)*4 xy' (M'U)*4 xy' (M'U)*4",
+            "move": "U R2 F B R B2 R U2 L B2 R U' D' R2 F R' L B2 U2 F2 ",
+            "pos": 1
+        }]
+    }]
+}, {
+    "method": "Notes",
+    "stages": [{
+        "name": "Cubes URLs",
+        "nickname": "URLS",
+        "cases": [{
+            "name": "Pretty Rubik´s Cube patterns with moveorithms",
+            "desc": "http://ruwix.com/the-rubiks-cube/rubiks-cube-patterns-moveorithms/",
+            "move": "",
+            "pos": 1
+        }, {
+            "name": "Ortega Corners-First Solution Method for Rubik's Cube",
+            "desc": "http://rubikscube.info/ortega.php",
+            "move": "",
+            "pos": 1
+        }]
+    }]
+}]
