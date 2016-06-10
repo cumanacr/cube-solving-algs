@@ -10,7 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/cumanacr/cube-solving-algs.git"
   },
-  "keywords": ["rubik","cube","algorithms","alg"],
+  "keywords": [
+    "rubik",
+    "cube",
+    "algorithms",
+    "alg"
+  ],
   "author": "cumanacr",
   "license": "ISC",
   "bugs": {
