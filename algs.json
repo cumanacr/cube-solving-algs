@@ -1,4 +1,8 @@
-[{
+[{"method": "Flip Edge on larger cubes",
+  "alg":"RUR' FR' F'R",
+  "video": "https://www.youtube.com/watch?v=d1I-jJlVwB4&t=4m18s"
+},
+    {
     "method": "Fridich (FULL)",
     "stages": [{
         "name": "FIRST 2 LAYERS",
